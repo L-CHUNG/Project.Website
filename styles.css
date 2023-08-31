@@ -1,0 +1,114 @@
+body{
+  background-color:#F07857;
+ animation: fadeBackground 6s;
+ animation-fill-mode: backwards;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ height: 2000px;
+}
+
+#Title {
+  color:#FFFFFF;
+  background-color:#F07857;
+  font-family: 'Playfair Display', serif;
+  padding-left:30px;
+  padding-right:30px;
+  padding-bottom:30px;
+  text-align:left;
+  padding-top: 30px;
+  animation: fadeBackground 6s;
+  animation-fill-mode:backwards;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  font-size:30px;
+  
+}
+#block1 {
+ color:black;
+ background-color:white;
+ padding-left:30px;
+ padding-right:30px;
+ padding-top:30px;
+ padding-bottom:30px;
+ animation: fadeblock1 6s;
+ animation-fill-mode:forwards;
+  animation-iteration-count: infinite;
+ animation-direction: alternate;
+ width:400px;
+ border-radius:10px;
+}
+#block2 {
+ color:black;
+ background-color:white;
+ padding-left:30px;
+ padding-right:30px;
+ padding-top:30px;
+ padding-bottom:30px;
+ animation: fadeblock2 6s;
+ animation-fill-mode:forwards;
+  animation-iteration-count: infinite;
+ animation-direction: alternate;
+ width:400px;
+ border-radius:10px;
+}
+#declarations {
+  color:white;
+   padding-left:30px;
+ padding-right:30px;
+ padding-bottom:30px;
+}
+
+
+
+
+@keyframes fadeBackground {
+  from { background-color:#F07857; }
+  to {background-color:#d17f66; }
+}
+@keyframes fadeTitle {
+  from { background-color:#F07857; }
+  to {background-color:#d17f66; }
+}
+
+#act1 {
+ color:white;
+ font-weight:bold;
+  font-size:32px;
+}
+#act2 {
+ color:white;
+ font-weight:bold;
+  font-size:32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
